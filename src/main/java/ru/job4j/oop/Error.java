@@ -25,5 +25,9 @@ public class Error {
         Error error404 = new Error(true, 404, "Not Found");
         Error error502 = new Error(false, 502, "Bad Gateway");
         Error error408 = new Error(true, 408, "Request Timeout");
+
+        error404.printInfo();
+        error408.printInfo();
+        error502.printInfo();
     }
 }
