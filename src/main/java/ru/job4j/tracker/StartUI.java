@@ -19,6 +19,9 @@ public class StartUI {
     }
 
     public static void main(String[] args) {
-        new StartUI(new Item()).showCreateDateTime();
+        StartUI test1 = new StartUI(new Item());
+        test1.showCreateDateTime();
+
+        System.out.println(test1.getItem());
     }
 }
